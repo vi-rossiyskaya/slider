@@ -1,0 +1,61 @@
+.slider {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+}
+
+.images_container {
+    background-color: lightcoral;
+}
+
+.image {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0;
+    position: absolute;
+}
+
+.active {
+    opacity: 1;
+}
+.arrow {
+    margin: auto 20px;
+    color: hsl(0, 0%, 100%); 
+    font-size: 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.right-arrow {
+    text-align: end;
+}
+
+.buttons {
+    width: 100%;
+    height: 100%;
+    background-color:transparent;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+}
+
+.button {
+    width: 50%;
+    height: 100%;
+    background-color:rgba(126, 126, 143, 0);
+    opacity: 0.3;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.button:hover {
+    opacity: 1;
+}
+ 
+
